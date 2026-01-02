@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* utility class */
+.container{
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: roboto, 'sans-serif';
+}
+
+.logo-section{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.logo{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
