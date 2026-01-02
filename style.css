@@ -18,13 +18,22 @@ body{
     font-family: roboto, 'sans-serif';
 }
 
-.logo-section{
+
+/* header section */
+.main-section{
     width: 100%;
-    padding: 20px 0px;
-    background-color: red;
+    height: 110vh;
+    padding: 50px 0px;
+    background-color: lightblue;
 }
 
-.logo{
+.logo-section{
+    padding: 20px 0px;
+    margin-bottom: 100px;
+}
+
+
+.logo-section .logo{
     font-size: 1.2rem;
     font-weight: bold;
     text-transform: capitalize;
