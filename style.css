@@ -52,6 +52,9 @@ body{
     color: var(--text-dark);
 }
 
+.logo-section .logo i{
+    font-size: 1.7rem;
+}
 
 .hero-section{
     /* background-color: green; */
