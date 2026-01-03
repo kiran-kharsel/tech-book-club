@@ -69,6 +69,12 @@ body{
 
 .hero-text .title{
     font-size: 5rem;
+    color: #DDA853;
+  background-image: linear-gradient(135deg, #DDA853 20%, #183B4E 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
 }
 
 .hero-text .desc{
