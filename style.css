@@ -12,6 +12,11 @@
     --white: #fefefe;
 }
 
+p{
+    color: var(--text-light);
+    font-size: 1.2rem;
+}
+
 /* utility class */
 .container{
     max-width: 1280px;
@@ -58,12 +63,45 @@ body{
     flex: 1;
     background-color: green;
     padding: 3rem 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .hero-text .title{
     width: 50%;
     font-size: 3rem;
 }
+
+.hero-text .users{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.users .user-img img{
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+}
+
+.users .info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.users .info i{
+    color: var(--accent-dark);
+}
+
+
+
+
+
+
+
 
 .hero-section .hero-image{
     flex: 1;
