@@ -105,9 +105,11 @@ body{
 
 .hero-section .hero-image{
     flex: 1;
-
+    padding: 30px 40px;
 }
 
 .hero-image img{
     width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
