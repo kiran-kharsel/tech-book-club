@@ -17,6 +17,10 @@ p{
     font-size: 1.2rem;
 }
 
+li{
+    list-style: none;
+}
+
 /* utility class */
 .container{
     max-width: 1280px;
@@ -137,7 +141,55 @@ body{
 /* feature-section - 1 */
 
 .feature-section{
-    height: 80vh;
     width: 100%;
+    height: 700px;
     background-color: lightblue;
+    padding: 100px 0px;
+}
+
+.feature-section .container{
+    display: flex;
+    align-items: center;
+}
+
+.feature-section .container .feature-img{
+    flex: 1;
+}
+
+.feature-img img{
+    height: 500px;
+    width: 550px;
+    border-radius: 15px;
+}
+
+
+.feature-section .container .feature-text{
+    flex: 1;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.feature-text h2{
+    font-size: 3rem;
+    width: 400px;
+}
+
+.feature-text ul{
+    width: 400px;
+}
+
+.feature-text ul li{
+    width: 350px;
+    margin-bottom: 5px;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.feature-text ul li i{
+    font-size: 1.4rem;
 }
