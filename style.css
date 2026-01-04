@@ -174,6 +174,7 @@ body{
 .feature-text h2{
     font-size: 3rem;
     width: 400px;
+    color: var(--text-dark);
 }
 
 .feature-text p{
@@ -199,4 +200,68 @@ body{
 
 .feature-text ul li i{
     font-size: 1.4rem;
+    color: var(--text-light);
+}
+
+
+/* roadmap-section */
+
+.roadmap{
+    margin-bottom: 100px;
+}
+
+.roadmap .container{
+    height: 500px;
+    padding: 0px 50px;
+    border-radius: 15px;
+    background: url('./assets/background.jpg');
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.roadmap .roadmap-heading{
+    font-size: 3rem;
+    width: 350px;
+    color: var(--text-dark);
+    text-align: center;  
+}
+
+.roadmap .steps{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.steps .step{
+    width: 250px;
+}
+
+.steps .step .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.step .icon p{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid var(--text-light);
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.step .icon i{
+    color: var(--accent-dark);
+    font-size: 2.4rem;
+}
+
+.steps .step .text{
+    width: 200px;
 }
