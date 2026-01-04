@@ -288,12 +288,19 @@ body{
 .membership-options .cards .card{
     height: 400px;
     width: 350px;
-    border: 1px solid var(--accent-light);
+    border: 1px solid var(--accent-dark);
     padding: 30px 15px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+
+.cards .card.active{
+    border: 0;
+    background: #F5EEDC;
+    background: linear-gradient(160deg,rgba(245, 238, 220, 1) 70%, rgba(39, 84, 138, 1) 100%);
 }
 
 .card .card-heading{
@@ -307,6 +314,7 @@ body{
 .card-heading h4{
     font-size: 1.4rem;
     color: var(--text-dark);
+    text-transform: capitalize;
 }
 
 .card .price span{
@@ -339,4 +347,5 @@ body{
     border-radius: 5px;
     cursor: pointer;
     background-color: var(--accent-light);
+    text-transform: uppercase;
 }
