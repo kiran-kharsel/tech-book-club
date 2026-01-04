@@ -149,6 +149,7 @@ body{
 .feature-section .container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .feature-section .container .feature-img{
@@ -301,7 +302,7 @@ body{
     scale: 1.1;
     border: 0;
     background: #F5EEDC;
-    background: linear-gradient(160deg,rgba(245, 238, 220, 1) 70%, rgba(39, 84, 138, 1) 100%);
+    background: linear-gradient(160deg,rgba(245, 238, 220, 1) 50%, rgba(39, 84, 138, 1) 100%);
 }
 
 .card .card-heading{
