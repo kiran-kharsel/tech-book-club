@@ -298,6 +298,7 @@ body{
 
 
 .cards .card.active{
+    scale: 1.1;
     border: 0;
     background: #F5EEDC;
     background: linear-gradient(160deg,rgba(245, 238, 220, 1) 70%, rgba(39, 84, 138, 1) 100%);
