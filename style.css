@@ -811,5 +811,32 @@ body {
     scale: 1;
   }
 
+
+  /* feedback */
+
+  .feedback-section{
+    height: auto;
+  }
+
+  .feedback-section .container{
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .feedback-section .feedback{
+    width: 100%;
+    text-align: start;
+  }
+
+  /* footer section */
+
+  .footer-section .footer-heading{
+    font-size: 2.5rem;
+  }
+
+  .footer-section .footer-review{
+    width: 50%;
+  }
+
 }
 
