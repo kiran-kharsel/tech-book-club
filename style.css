@@ -495,6 +495,11 @@ body {
 
   /* feature-section */
 
+  .feature-section{
+    height: auto;
+    padding: 20px 0px;
+  }
+
   .feature-section .container {
     flex-direction: column;
   }
