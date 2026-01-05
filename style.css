@@ -593,7 +593,6 @@ body {
 
   /* membership-options */
 
-
   .membership-options .membership-heading{
     font-size: 2rem;
     text-align: start;
@@ -610,7 +609,7 @@ body {
   }
 
 
-  /* membership-options */
+  /* feedback */
 
   .feedback-section{
     height: auto;
@@ -789,5 +788,28 @@ body {
   .steps .step .text{
     width: 100%;
   }
+
+  /* membership-options */
+
+  .membership-options .membership-heading{
+    font-size: 3rem;
+    text-align: start;
+  }
+
+  .membership-options .cards{
+    height: 750px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .membership-options .cards .card{
+    max-width: 280px;
+    max-height: 350px;
+  }
+
+  .cards .card.active{
+    scale: 1;
+  }
+
 }
 
