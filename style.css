@@ -58,7 +58,6 @@ body {
 }
 
 .hero-section {
-  /* background-color: green; */
   width: 100%;
   height: 90vh;
   display: flex;
@@ -455,6 +454,9 @@ body {
   .main-section {
     padding: 20px;
     width: 100%;
+    height: 180vh;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .logo-section {
@@ -467,7 +469,6 @@ body {
 
   .hero-section .hero-text {
     padding: 1rem 0px;
-    background-color: green;
     gap: 30px;
   }
 
@@ -492,5 +493,39 @@ body {
     padding: 40px 0px;
   }
 
-  
+  /* feature-section */
+
+  .feature-section .container {
+    flex-direction: column;
+  }
+
+  .feature-section .container .feature-text{
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .feature-text h2{
+    font-size: 2.5rem;
+    width: 80%;
+  }
+
+  .feature-text ul{
+    width: 100%;
+  }
+
+  .feature-text ul li{
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .feature-section .container .feature-img {
+    order: 2;
+    padding: 20px;
+  }
+
+  .feature-img img {
+    height: 350px;
+    width: 100%;
+  }
 }
