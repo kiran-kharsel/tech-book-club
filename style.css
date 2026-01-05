@@ -606,6 +606,7 @@ body {
 
   .feedback-section{
     padding: 0px 20px;
+    height: auto;
   }
 
   .feedback-section .container{
@@ -616,5 +617,20 @@ body {
   .feedback-section .feedback{
     width: 100%;
     text-align: start;
+  }
+
+  /* footer section */
+
+  .footer-section{
+    padding: 40px 20px 60px;
+  }
+
+  .footer-section .footer-heading{
+    font-size: 2rem;
+    width: 250px;
+  }
+
+  .footer-section .footer-review{
+    width: 100%;
   }
 }
