@@ -452,7 +452,7 @@ body {
 
 /* responsivenes - mobile */
 
-@media screen and (max-width: 480px) {
+@media only screen and (min-width: 250px) and (max-width: 600px) {
   body {
     width: 100%;
   }
@@ -461,6 +461,9 @@ body {
     max-width: 90%;
     padding-inline: 0px;
   }
+
+
+  /* feature-section */
 
   .main-section {
     width: 100%;
@@ -634,3 +637,70 @@ body {
     width: 100%;
   }
 }
+
+
+
+
+/* responsivenes - tablet */
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  /* CSS styles for all tablets */
+  body {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 90%;
+    padding-inline: 0px;
+  }
+
+
+  /* feature-section */
+
+  .main-section{
+    width: 100%;
+    height: 180vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .logo-section {
+    margin-bottom: 0px;
+  }
+
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-section .hero-text {
+    padding: 1rem 0px;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .hero-text .title {
+    font-size: 3rem;
+    width: 60%;
+  }
+
+  .hero-text .desc{
+    width: 70%;
+  }
+
+  .hero-text .review {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  .hero-text .info p {
+    color: var(--text-light);
+  }
+
+  .hero-section .hero-image {
+    padding: 40px 0px;
+    width: 100%;
+    background-color: green;
+  }
+
+}
+
