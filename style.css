@@ -447,3 +447,31 @@ body{
     font-size: 0.8rem;
     color: var(--white);
 }
+
+
+
+/* responsivenes - mobile */
+
+@media screen and (max-width: 480px) {
+  body {
+    /* background-color: lightgreen; */
+    width: 100%;
+  }
+
+  .container{
+    max-width: 100%;
+    padding-inline: 0px;
+  }
+
+  .main-section{
+    max-width: fit-content;
+    padding: 20px;
+  }
+  .logo-section{
+    margin-bottom: 0px;
+  }
+
+  .hero-section{
+    flex-direction: column;
+  }
+}
