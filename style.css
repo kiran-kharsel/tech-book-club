@@ -578,4 +578,26 @@ body {
   .steps .step .text{
     width: 100%;
   }
+
+
+  /* membership-options */
+
+  .membership-options{
+    padding: 0px 20px;
+  }
+
+  .membership-options .membership-heading{
+    font-size: 2rem;
+    text-align: start;
+    width: 200px;
+  }
+
+  .membership-options .cards{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .cards .card.active{
+    scale: 1;
+  }
 }
